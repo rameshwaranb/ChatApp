@@ -1,0 +1,101 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.container{
+  width: 780px;
+  margin: 0 auto;
+}
+.header-username{
+  text-align: right;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+.main{
+  padding: 5px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+}
+.modal-dialog{
+  width: 480px;
+}
+.modal-content{
+  padding: 20px;
+}
+#message{
+  width: 90%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.message-list{
+  padding: 20px 0;
+  min-height: 200px;
+}
+.msgs{
+  padding: 4px 20px;
+}
+.by-me{
+}
+.by-me .text{
+  background-color: rgba(113,177,121,0.1);
+  float: right;
+}
+.text{
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #efdfef;
+  border-radius: 4px;
+}
+.choose-receiver-btn,.register-btn{
+  margin-top: 15px;
+}
+label{
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.header{
+  padding: 20px;
+  background-color: rgba(101, 151, 226, 0.5);
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+.is-typing{
+  text-transform: lowercase;
+  font-size: 12px;
+}
+.text-msg{
+  vertical-align: middle;
+}
+.msg-sent{
+  width: 10px;
+  margin-left: 10px;
+}
+.msg-delivered{
+  width: 10px;
+  margin-left: -5px;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+.text-center{
+  text-align: center;
+}
+h4{
+  font-size: 12px;
+}
+
+.text-input{
+
+}
